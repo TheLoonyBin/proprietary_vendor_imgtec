@@ -14,16 +14,16 @@
 
 # Imgtec blob(s) necessary for Maguro hardware
 PRODUCT_PACKAGES := \
-    pvrsrvctl \
+    powervr_ini \
     libEGL_POWERVR_SGX540_120 \
     libGLESv1_CM_POWERVR_SGX540_120 \
     libGLESv2_POWERVR_SGX540_120 \
     gralloc.omap4 \
-    libglslcompiler \
-    libIMGegl \
-    libpvr2d \
-    libpvrANDROID_WSEGL \
-    libPVRScopeServices \
-    libsrv_init \
-    libsrv_um \
-    libusc
+    libglslcompiler_SGX540_120 \
+    libIMGegl_SGX540_120 \
+    libpvr2d_SGX540_120 \
+    libpvrANDROID_WSEGL_SGX540_120 \
+    libPVRScopeServices_SGX540_120 \
+    libsrv_init_SGX540_120 \
+    libsrv_um_SGX540_120 \
+    libusc_SGX540_120
